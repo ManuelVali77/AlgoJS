@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    
+    // string = "        Bonjour les amis, nous allons réussir les algos aujourd'hui!       "
+    
+    // function FirstWord (string){
+    //     let i = 0;
+    //     let newStr = "";
+
+    //     while (string[i] === " "){
+    //         // console.log(string[i])
+    //         i++
+    //     }
+    //     while (string[i] !== " "){
+    //         // console.log(string[i])
+    //         newStr = newStr + string[i]
+    //         i++
+    //     }
+    //     console.log(newStr)
+    // }
+    // FirstWord (string)
+
+    str = "                  Bonjour, voici désormais le dernier mot                  "
+    function LastWord (str){
+        let i = 0;
+        const longueurPhrase = str.length-1;
+
+       while (i<longueurPhrase){
+           i++
+       }
+      while (longueurPhrase == " "){
+          i--
+      }
+      while (longueurPhrase !== " "){
+          i--
+      }
+
+
+
+    }
+
+</script>
+
+
+
+
+
+    <button type="button" onclick=FirstWord(string)>Super Bouton</button>
+    <button type="button" onclick=LastWord(str)>Super Bouton</button>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    
+//     function removeDuplicates(num) {
+//         let h;
+//       len=num.length,
+//       out=[],
+//       obj={};
+ 
+//   for (h=0; h<len; h++) {
+//     obj[num[h]]=0;
+//   }
+//   for (h in obj) {
+//     out.push(h);
+//   }
+//   return out;
+// }
+// let Mynum = "Bonjour je m'appelle Manuel Valinhas";
+// let Mynum2 = "Je vais réussir cet exercice";
+// let Mynum3 = Mynum + Mynum2
+
+// result = removeDuplicates(Mynum3);
+// console.log(result);
+// console.log(obj)
+
+// Méthode 1 ---------------------------------------------------------------------------------------------------------------------------------------
+
+// fStr="Avez-vous déjà vu un ver allant vers un verre en verre vert à l'envers?"
+//         sStr="Quarante carottes crues croient que croquer crée des crampes."
+//         tStr = ""
+//         tStr = tStr + fStr + sStr        
+//         // console.log(tStr)
+//         function double(tStr){
+//             forthStr=""
+//             i=0;
+//             for(i=0; i< tStr.length; i++){
+//                 if(!forthStr.includes(tStr[i])){
+//                     forthStr = forthStr + tStr
+//                 }
+//             }
+//             console.log(forthStr)
+//         }
+//         double(tStr)
+
+// Méthode 2 ---------------------------------------------------------------------------------------------------------------------------------------
+
+// function clic() {  
+// ​
+// ​
+            // qui prend deux chaînes et affiche, sans double, les caractères qui apparaissent dans l'une ou l'autre des chaînes.
+            // EX : str:1 "zpadinton" - str:2 “paqefwtdjetyiytjneytjoeyjnejeyj” - résultat : "zpadintoqefwjy"
+            
+            //     function quiNeDoublePasLesCaracteres(str1, str2) {
+            //     let fusionStr = str1 + str2
+            //     let str3 = ""
+            //     str3 += fusionStr[0]
+                
+            //     for (let i = 0 ; i < fusionStr.length ; i++) {
+            //         let egalite = false;
+            //         for (let j = 0 ; j < str3.length ; j++) {
+            //             if (fusionStr[i] === str3[j]) {
+            //                 egalite = true;
+            //             }
+            //         }
+            //         if (egalite == false) {
+            //             str3 += fusionStr[i] // str3 = str3 + fusionStr[i]
+            //         }
+            //     }
+            //     console.log("Les strings '", str1, "' et' ", str2, "' deviennent :", str3)
+            // }
+            // quiNeDoublePasLesCaracteres('cyclopentanoper hydrophé nanthrène', 'glycosylphosphati dyléthano lamine')
+            // document.getElementById("bouton").innerHTML = "Bien joué !";
+        
+
+// Méthode 3 ------------------------------------------------------------------------------------------------------------------------------------------
+// ​
+// removeDuplicates(str) {
+//     // Used as index in the modified string
+//     let n = str.length
+//     // Traverse through all characters
+//     let res = ''
+//     let a
+//     for (a = 0; a < n; a++) {
+//       // Check if str[i] is present before it
+//       let j
+//       for (j = a + 1; j < n; j++) {
+//         if (str[a] == str[j]) break
+//       }
+// ​
+//       // If not present, then add it to
+//       // result.
+//       if (j == n) {
+//         res = res + str[a]
+//       }
+//     }
+//     return res
+//   }
+
+
+
+
+</script>
+
+</body>
+</html>

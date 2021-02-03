@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // Methode Itérative ------------------------------------------------------------------------------------------------------------------------
+
+        // function suiteFibonnaci(nbr1) { 
+        //     let n1 = 0;
+        //     let n2 = 1;
+        //     let result = 0;
+
+        //         for(let i = 2; i <= nbr1; i++) { 
+        //             result = n1 + n2;
+        //             // console.log(result)
+        //             n1 = n2;
+        //             // console.log(n1)
+        //             n2 = result
+        //             // console.log(n2)
+        //         }
+        //     return nbr1 ? n2 : n1;
+        //     // console.log(n1)
+        //     }
+        //     console.log(suiteFibonnaci(8));
+
+        //   Méthode Récursive -----------------------------------------------------------------------------------------------------------------------------  
+            function fibonacci (nb1){
+                if(nb1 < 2){
+                    console.log(nb1)
+                    return nb1;
+                }
+                return fibonacci(nb1-1) + fibonacci(nb1-2)
+            }
+            console.log(fibonacci(8))
+
+
+
+
+
+
+    </script>
+</body>
+</html>

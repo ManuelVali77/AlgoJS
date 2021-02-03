@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+
+      // Nombre premier ---------------------------------------------------------------------------------------------------
+
+      // function nbrPremier(nbr){
+      //     for (let i = 2; i < nbr; i++)
+      //         if(nbr%i === 0) return false;
+      //         return nbr > 1;
+      // }
+      //     console.log(nbrPremier(2));
+
+      // Racine Carre -----------------------------------------------------------------------------------------------------
+
+      // function racineCarre(nbr) {
+      //     for (let i = 0; i < nbr; i++)
+      //         if (i*i == nbr) return true;
+      //         return 0;
+      //         }
+      //     console.log(racineCarre(9))
+
+      // Power --------------------------------------------------------------------------------------------------------------
+
+      // function power(nbr1, nbrP) {
+      // let result = nbr1 ** nbrP;
+      // console.log(result)
+      // }
+      // console.log(power(8,4))
+
+      function power2(nbr1, nbrP) {
+        
+        let resultat = 1;
+
+        for (i = 0; i < nbrP; i++) {
+          
+            resultat = resultat * nbr1;
+        }
+        console.log("resultat", resultat);
+      }
+      power2(8, 4);
+      
+    </script>
+  </body>
+</html>
